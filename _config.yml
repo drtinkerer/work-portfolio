@@ -1,14 +1,14 @@
-title: "Will Russell"
-email: fellowship@mlh.io
+title: "Bhushan Rane"
+email: eulers_identity2718@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is my portfolio website!
 baseurl: "/" 
 url: "/"
 # You only need to define your social links here and no need to edit the footer.html
 social:
-  twitter_username: wrussell1999
-  github_username:  wrussell1999
-  linkedin_username: wrussell1999
+  twitter_username: eulers_identiti
+  github_username:  drtinkerer
+  linkedin_username: bhushanrane29
 
 
 sass:
@@ -21,3 +21,4 @@ icon: /assets/img/icon.jpg
 # https://support.google.com/analytics/answer/1008080
 google-analytics: XX-000000000-0
 resume: /assets/resume.pdf
+port: 80

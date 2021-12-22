@@ -1,4 +1,4 @@
-
+<section>
 <div class="home">
 <div class="profile">
   <div class="profile-picture">
@@ -8,12 +8,14 @@
 
   {% if site.resume %}
   <div>
+    <section><b> Gamer, Problem solver, Musician, Ponderer </b></section>
+   <br></br>
     <button
       onclick="downloadResume('{{ site.title }} - Resume', '{{ site.resume }}')"
       class="download"
     >
       Check out my Resume!
-    </button>
+   </button>
   </div>
   {% endif %}
   </div>
@@ -24,7 +26,7 @@
   <div class="cube"></div>
   <div class="cube"></div>
 </div>
-
+</section>
 {% if site.resume %}
 <script>
   const downloadResume = (name, url) => {
