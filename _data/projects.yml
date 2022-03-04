@@ -1,36 +1,22 @@
-- title: Task Tracker
-  event: MLH Fellowship Pre Fellowship Project
-  date: Summer 2021  - Batch 3.5
-  page-name: project
-  
-  # Optional links
-  github: https://github.com/
-  external_link: https://github.com/
-  video_demo: https://github.com/
-  
+- title: End to end highly scalable and intelligent monitoring and alerting system
+  event: Sugarbox Networks
+  date: 2020
   id: 1
-  summary: >- # This means to ignore newlines until the next attribute. This summary is used for the overlay card content. 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  summary: >- # This means to ignore newlines until the next attribute. This summary is used for the overlay card content.
+    Designed, implemented and administered an end to end Monitoring and Alerting system for custom business data.
+    Added a bonus intelligence to the system by integrating it with JIRA to avoid spamming.
+    This project involved various tools like Apache Kafka as streaming data source, Apache HBase as storage backend, OpenTSDB as Time series database,
+    Bosun as Monitoring and alerting system, FASTAPI backend for public facing API Gateway, HAProxy as Load Balancer and Apache NiFi as
+    data processing engine.
+
 
 # Second Dummy project
-- title: Not a Task Tracker
-  event: MLH Fellowship Pre Fellowship Project
-  date: Summer 2021  - Batch 3.5
-  page-name: project
-
-  # Optional links
-  github: https://github.com/
-  external_link: 
-  video_demo: https://github.com/
-
+- title: Password manager program for disconnected environment
+  event: Sugarbox Networks
+  date: 2021
   id: 2
   summary: >- # This means to ignore newlines until the next attribute
-
-
-    Some new random Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Developed a password-manager program that will periodically change linux user's password on all the edges to strengthen security on a disconnected linux servers environment.
+    Also, developed and implemented a supporting web application where the current password will be visible.
+    This system does not use any central database to manage passwords.
+    It uses simple mathematical functions along with timestamps to generate passwords periodically.
